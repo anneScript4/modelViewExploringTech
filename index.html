@@ -15,11 +15,18 @@
             margin: 0 auto;
         }
 
+        body{
+            background-color: bisque;
+        }
+
     </style>
 </head>
 <body>
 
-    <model-viewer src="assests/3DEmmaWatsonEdited.glb" auto-rotate camera-controls> </model-viewer>
+    <model-viewer src="assests/3DEmmaWatsonEdited.glb" environment-image="spruit_sunrise_1k_HDR.hdr" exposure="1.4" shadow-intensity="3" shadow-softness="1" camera-orbit="-165.2deg 46.47deg 193.3m" poster="poster.png" auto-rotate camera-controls min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 193.3m">
+
+    </model-viewer>
+    
 
 </body>
 </html>
